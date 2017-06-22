@@ -36,6 +36,7 @@ class ThreadEx13_1 implements Runnable {
 
 	public void run() {
 		while(!stopped) {
+			System.out.println("============");
 			if(!suspended) {
                 System.out.println(Thread.currentThread().getName());
 				try {
